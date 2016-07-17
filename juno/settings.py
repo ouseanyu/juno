@@ -339,3 +339,4 @@ else:
     set_dynamic_settings(globals())
 
 SITE_TITLE = 'AIMSKY'
+SECRET_KEY = 'AIMSKY'
