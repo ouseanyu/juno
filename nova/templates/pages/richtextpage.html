@@ -4,7 +4,7 @@
 {% block left_wrapper %}
 {% endblock %}
 
-<div class="span{% block main_col_size %}8{% endblock %}">
+<div class="span{% block main_col_size %}12{% endblock %}">
 {% block main %}{{ block.super }}
 
 {% editable page.richtextpage.content %}
@@ -16,15 +16,15 @@
 
 {% block right_wrapper %}
 
-<aside class="span{% block right_col_size %}4{% endblock %} {% block right_class %}right{% endblock %}">
-    {% nevercache %}
-    {% include "includes/user_panel.html" %}
-    {% endnevercache %}
- 
-    {% block right_panel %}
-    {{block.super}}
-	{% endblock %}
-    
-	</aside>
+{#<aside class="span{% block right_col_size %}4{% endblock %} {% block right_class %}right{% endblock %}">#}
+{#    {% nevercache %}#}
+{#    {% include "includes/user_panel.html" %}#}
+{#    {% endnevercache %}#}
+{# #}
+{#    {% block right_panel %}#}
+{#    {{block.super}}#}
+{#	{% endblock %}#}
+{#    #}
+{#	</aside>#}
 
 {% endblock %}
