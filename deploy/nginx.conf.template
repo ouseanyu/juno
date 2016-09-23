@@ -14,7 +14,7 @@ server {
     }
 
     location /static {
-        alias /home/www/juno_static;     # your Django project's static files
+        alias /home/www/juno/static;     # your Django project's static files
     }
 
     # Finally, send all non-media requests to the Django server.
