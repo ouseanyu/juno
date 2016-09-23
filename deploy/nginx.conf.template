@@ -13,7 +13,7 @@ server {
         alias /home/www/juno/static/media;      # your Django project's media files
     }
 
-    location /assets {
+    location /static {
         alias /home/www/juno_static;     # your Django project's static files
     }
 
